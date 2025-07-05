@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canine Compendium: Breeds, History & Food</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Navigation Bar -->
+    <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-4xl font-extrabold tracking-wide">Canine Compendium</h1>
+            <nav>
+                <!-- Add more navigation links here if needed in the future -->
+                <a href="#" class="text-white hover:text-blue-200 transition duration-300 ease-in-out text-lg font-medium">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-bold text-center text-gray-900 mb-12">Explore Dog Breeds</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+                <!-- Breed Card: Labrador Retriever -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1596492784531-ee64364520bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Labrador Retriever" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Labrador Retriever</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Originating in Newfoundland, Canada, Labradors were bred to assist fishermen in retrieving nets and fish. They became popular in the UK and North America.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Active dogs needing high-quality protein. Prone to obesity, so portion control is key. Benefit from joint-supporting supplements.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: German Shepherd -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1600378413693-b6d2e6d6d2e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="German Shepherd" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">German Shepherd</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Developed in Germany in the late 19th century for herding sheep, they quickly gained recognition for their intelligence and versatility.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Require a diet supporting their active lifestyle and muscle mass. Some are sensitive to certain grains; consider grain-free options if needed.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Golden Retriever -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1596492784531-ee64364520bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Golden Retriever" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Golden Retriever</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Originated in Scotland in the mid-19th century, bred to retrieve game from both land and water during hunting parties.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Prone to allergies and hip/elbow dysplasia. A balanced diet with omega fatty acids and controlled portions is beneficial.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: French Bulldog -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1615783307255-08e001f1f1f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="French Bulldog" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">French Bulldog</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Descended from English Bulldogs, they were miniaturized in England and became popular in France among lace workers in the 1800s.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Prone to digestive issues and allergies. A high-quality, easily digestible diet is recommended. Avoid overfeeding to prevent obesity.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Poodle -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1543463172-132a0c4f1c9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Poodle" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Poodle</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Despite their association with France, Poodles originated in Germany as water retrievers. Their distinctive coat clips were functional for swimming.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Can be prone to sensitive stomachs and allergies. A balanced diet with quality ingredients and good fats for coat health is ideal.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Beagle -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1597633276686-e2a22285a8f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Beagle" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Beagle</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Small hounds used for hunting hare in England for centuries. Their keen sense of smell makes them excellent scent detectors.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Known for their love of food and tendency to gain weight. Strict portion control and a balanced diet are crucial.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Bulldog -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1579737976865-c990234a9b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Bulldog" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Bulldog</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Originated in England, bred for bull-baiting. After the sport was outlawed, they were refined into the gentle companions we know today.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Prone to allergies and sensitive digestion. A high-quality, limited-ingredient diet can be beneficial. Avoid overfeeding due to lower activity levels.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Rottweiler -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1583337130417-339eb2772a50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Rottweiler" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Rottweiler</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Descended from Roman drover dogs, they were used to herd livestock and pull carts in Germany. Named after the town Rottweil.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Large, muscular dogs needing a diet rich in protein and nutrients for joint health. Prone to bloat, so smaller, frequent meals are advised.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Dachshund -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1544005313-94efc354d180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Dachshund" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Dachshund</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> German in origin, bred to hunt badgers and other burrow-dwelling animals. Their long, low bodies were ideal for going into tunnels.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Prone to back problems, so maintaining a healthy weight is critical. High-quality dog food in controlled portions is recommended.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Siberian Husky -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Siberian Husky" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Siberian Husky</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Originated in Northeast Asia by the Chukchi people for pulling sleds long distances in harsh conditions. Known for their endurance.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> High energy dogs needing a diet to support their activity. Can be prone to zinc deficiency; a balanced, high-quality diet is important.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Border Collie -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Border Collie" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Border Collie</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Developed in the Anglo-Scottish border region for herding sheep. Renowned for their intelligence, intense stare, and working ability.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Highly active dogs requiring a diet rich in protein and healthy fats to sustain their energy levels. Avoid overfeeding to prevent weight gain.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Breed Card: Australian Shepherd -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Australian Shepherd" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Australian Shepherd</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            <span class="font-semibold text-blue-700">History:</span> Despite the name, they developed in the Western U.S. during the 19th century, used by Basque shepherds. Known for agility and herding.
+                        </p>
+                        <p class="text-gray-700 text-sm">
+                            <span class="font-semibold text-green-700">Food Habits:</span> Energetic dogs needing a high-quality diet to support their active lifestyle. Can be prone to certain sensitivities, so monitor their reaction to food.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-12 bg-gray-800 text-white text-sm text-center p-6">
+        &copy; 2025 Canine Compendium. All rights reserved.
+    </footer>
+</body>
+</html>
