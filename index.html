@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canine Compendium: Breeds, History & Food</title>
+    <title>Canine Compendium: Dog Breeds, History & Food</title>
+    <meta name="description" content="Discover popular dog breeds, their history, and food habits.">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,8 +25,8 @@
         <div class="container mx-auto flex justify-between items-center">
             <h1 class="text-4xl font-extrabold tracking-wide">Canine Compendium</h1>
             <nav>
-                <!-- Add more navigation links here if needed in the future -->
-                <a href="#" class="text-white hover:text-blue-200 transition duration-300 ease-in-out text-lg font-medium">Home</a>
+                <!-- Only Home link remains -->
+                <a href="#dog-breeds-section" class="text-white hover:text-blue-200 transition duration-300 ease-in-out text-lg font-medium">Home</a>
             </nav>
         </div>
     </header>
@@ -33,13 +34,13 @@
     <!-- Main Content Area -->
     <main class="flex-grow py-12 px-4">
         <div class="container mx-auto">
-            <h2 class="text-5xl font-bold text-center text-gray-900 mb-12">Explore Dog Breeds</h2>
+            <h2 id="dog-breeds-section" class="text-5xl font-bold text-center text-gray-900 mb-12">Explore Dog Breeds</h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-20">
 
                 <!-- Breed Card: Labrador Retriever -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1596492784531-ee64364520bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Labrador Retriever" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1596492784531-ee64364520bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Labrador Retriever dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Labrador Retriever</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -53,7 +54,7 @@
 
                 <!-- Breed Card: German Shepherd -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1600378413693-b6d2e6d6d2e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="German Shepherd" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1600378413693-b6d2e6d6d2e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="German Shepherd dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">German Shepherd</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -67,7 +68,7 @@
 
                 <!-- Breed Card: Golden Retriever -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1596492784531-ee64364520bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Golden Retriever" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1596492784531-ee64364520bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Golden Retriever dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Golden Retriever</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -81,7 +82,7 @@
 
                 <!-- Breed Card: French Bulldog -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1615783307255-08e001f1f1f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="French Bulldog" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1615783307255-08e001f1f1f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="French Bulldog dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">French Bulldog</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -95,7 +96,7 @@
 
                 <!-- Breed Card: Poodle -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1543463172-132a0c4f1c9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Poodle" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1543463172-132a0c4f1c9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Poodle dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Poodle</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -109,7 +110,7 @@
 
                 <!-- Breed Card: Beagle -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1597633276686-e2a22285a8f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Beagle" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1597633276686-e2a22285a8f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Beagle dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Beagle</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -123,7 +124,7 @@
 
                 <!-- Breed Card: Bulldog -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1579737976865-c990234a9b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Bulldog" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1579737976865-c990234a9b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Bulldog dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Bulldog</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -137,7 +138,7 @@
 
                 <!-- Breed Card: Rottweiler -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1583337130417-339eb2772a50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Rottweiler" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1583337130417-339eb2772a50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Rottweiler dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Rottweiler</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -151,7 +152,7 @@
 
                 <!-- Breed Card: Dachshund -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1544005313-94efc354d180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Dachshund" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1544005313-94efc354d180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Dachshund dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Dachshund</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -165,7 +166,7 @@
 
                 <!-- Breed Card: Siberian Husky -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Siberian Husky" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Siberian Husky dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Siberian Husky</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -179,7 +180,7 @@
 
                 <!-- Breed Card: Border Collie -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Border Collie" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Border Collie dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Border Collie</h3>
                         <p class="text-gray-700 text-sm mb-4">
@@ -193,7 +194,7 @@
 
                 <!-- Breed Card: Australian Shepherd -->
                 <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Australian Shepherd" class="w-full h-56 object-cover">
+                    <img src="https://images.unsplash.com/photo-1563240619-7e521683526a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Australian Shepherd dog" class="w-full h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Australian Shepherd</h3>
                         <p class="text-gray-700 text-sm mb-4">
